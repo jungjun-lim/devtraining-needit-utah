@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Validate that the answer match the following condition:
+Subject = ASUS A52 Power unit recall
+and Priority = 0
+With a failure timeout of 30 Seconds</description>
+        <display_name>Validate Variable Values</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>7</order>
+        <step_config display_value="Validate Variable Values">5a36c681c37e220076173b0ac3d3aecf</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2024-07-18 05:07:10</sys_created_on>
+        <sys_id>b447591497ebc21030c77ff0f053af8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validate Variable Values</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_step_b447591497ebc21030c77ff0f053af8d</sys_update_name>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2024-07-18 05:07:10</sys_updated_on>
+        <table/>
+        <test display_value="ATF Generated Test - Record Producer, Create case from question, System Administrator">2047591497ebc21030c77ff0f053af59</test>
+        <timeout>1970-01-01 00:00:30</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=b447591497ebc21030c77ff0f053af8d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b447591497ebc21030c77ff0f053af8d</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2024-07-18 05:07:10</sys_created_on>
+        <sys_id>7447591497ebc21030c77ff0f053af8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2024-07-18 05:07:10</sys_updated_on>
+        <value>IO:3bb29bf67fe10300daf61307adfa9173=ASUS A52 Power unit recall ^IO:f3dadb3a7fe10300daf61307adfa9150=0</value>
+        <variable display_value="Catalog Conditions">8a682649c37e220076173b0ac3d3ae47</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b447591497ebc21030c77ff0f053af8d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2024-07-18 05:07:10</sys_created_on>
+        <sys_id>b047591497ebc21030c77ff0f053af8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2024-07-18 05:07:10</sys_updated_on>
+        <value>2c1297f67fe10300daf61307adfa91cf</value>
+        <variable display_value="Item">b46842c1c37e220076173b0ac3d3aebc</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_5a36c681c37e220076173b0ac3d3aecf^id=b447591497ebc21030c77ff0f053af8d"/>
+</record_update>

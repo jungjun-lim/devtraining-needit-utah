@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Validate there is at least one record in 'sn_customerservice_case_report' matching query:
+First Contact Resolution = None
+and Created by = admin
+and Case = {{Step 11: Submit Record Producer.Record ID}}
+With a failure timeout of 10 Seconds</description>
+        <display_name>Record Query</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>36</order>
+        <step_config display_value="Record Query">2d82e3c7531400109e02ddeeff7b12a7</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2024-07-18 18:03:54</sys_created_on>
+        <sys_id>2609cc2c472f86101653eae8736d438e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Query</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_step_2609cc2c472f86101653eae8736d438e</sys_update_name>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2024-07-18 18:03:54</sys_updated_on>
+        <table>sn_customerservice_case_report</table>
+        <test display_value="ATF Generated Test - Record Producer, Create Product Case, System Administrator">ca090c2c472f86101653eae8736d430c</test>
+        <timeout>1970-01-01 00:00:10</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=2609cc2c472f86101653eae8736d438e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>2609cc2c472f86101653eae8736d438e</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2024-07-18 18:03:54</sys_created_on>
+        <sys_id>2609cc2c472f86101653eae8736d4390</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2024-07-18 18:03:54</sys_updated_on>
+        <value>is_fcr=0^sys_created_by=admin^case={{step['8a098c2c472f86101653eae8736d43e5'].record_id}}</value>
+        <variable display_value="Conditions">915990ab531000109e02ddeeff7b12f8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>2609cc2c472f86101653eae8736d438e</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2024-07-18 18:03:54</sys_created_on>
+        <sys_id>6209cc2c472f86101653eae8736d4390</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2024-07-18 18:03:54</sys_updated_on>
+        <value>sn_customerservice_case_report</value>
+        <variable display_value="Table">78b8d86b531000109e02ddeeff7b12f3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>2609cc2c472f86101653eae8736d438e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2024-07-18 18:03:54</sys_created_on>
+        <sys_id>ae09cc2c472f86101653eae8736d438f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2024-07-18 18:03:54</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Enforce security">02fb0027531000109e02ddeeff7b120b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>2609cc2c472f86101653eae8736d438e</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2024-07-18 18:03:54</sys_created_on>
+        <sys_id>ea09cc2c472f86101653eae8736d438f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2024-07-18 18:03:54</sys_updated_on>
+        <value>records_match_query</value>
+        <variable display_value="Assert type">b86c0427531000109e02ddeeff7b1227</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2609cc2c472f86101653eae8736d438e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>2609cc2c472f86101653eae8736d438e</id>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2024-07-18 18:03:54</sys_created_on>
+        <sys_id>e609cc2c472f86101653eae8736d4392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2024-07-18 18:03:54</sys_updated_on>
+        <table>var__m_atf_input_variable_2d82e3c7531400109e02ddeeff7b12a7</table>
+        <value>is_fcr=0^sys_created_by=admin^case={{step['8a098c2c472f86101653eae8736d43e5'].record_id}}</value>
+    </sys_element_mapping>
+</record_update>

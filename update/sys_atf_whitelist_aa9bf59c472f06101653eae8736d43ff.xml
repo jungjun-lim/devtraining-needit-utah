@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_whitelist">
+    <sys_atf_whitelist action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>ATF Bootstrap Generated</description>
+        <error_location>client_error</error_location>
+        <error_message>Display false not set on field comments: cross-scope access denied.</error_message>
+        <report_level>warning</report_level>
+        <sys_class_name>sys_atf_whitelist</sys_class_name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2024-07-18 07:45:57</sys_created_on>
+        <sys_id>aa9bf59c472f06101653eae8736d43ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Display false not set on field comments: cross-scope access denied.</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_whitelist_aa9bf59c472f06101653eae8736d43ff</sys_update_name>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2024-07-18 07:45:57</sys_updated_on>
+        <test display_value="ATF Generated Test - Record Producer, Need help with a product?, System Administrator">7d9bf19c472f06101653eae8736d4381</test>
+    </sys_atf_whitelist>
+</record_update>

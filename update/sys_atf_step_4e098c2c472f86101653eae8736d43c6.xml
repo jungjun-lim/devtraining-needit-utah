@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Confirm that the following variables are visible: Asset, Product, Consumer, Priority, Subject, Description
+Confirm that the following variables are mandatory: Subject, Product
+
+With a failure timeout of 30 Seconds</description>
+        <display_name>Variable State Validation</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>6</order>
+        <step_config display_value="Variable State Validation">33f637e8c3ba220076173b0ac3d3aee1</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2024-07-18 18:03:52</sys_created_on>
+        <sys_id>4e098c2c472f86101653eae8736d43c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Variable State Validation</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_step_4e098c2c472f86101653eae8736d43c6</sys_update_name>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2024-07-18 18:03:52</sys_updated_on>
+        <table/>
+        <test display_value="ATF Generated Test - Record Producer, Create Product Case, System Administrator">ca090c2c472f86101653eae8736d430c</test>
+        <timeout>1970-01-01 00:00:30</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=4e098c2c472f86101653eae8736d43c6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>4e098c2c472f86101653eae8736d43c6</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2024-07-18 18:03:52</sys_created_on>
+        <sys_id>0a098c2c472f86101653eae8736d43c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2024-07-18 18:03:52</sys_updated_on>
+        <value>c0f68812c312310015519f2974d3ae67,e9b94c12c312310015519f2974d3ae78</value>
+        <variable display_value="Mandatory">5149372cc3ba220076173b0ac3d3ae98</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>4e098c2c472f86101653eae8736d43c6</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2024-07-18 18:03:52</sys_created_on>
+        <sys_id>0e098c2c472f86101653eae8736d43c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2024-07-18 18:03:52</sys_updated_on>
+        <value/>
+        <variable display_value="Not visible">32e8ffe8c3ba220076173b0ac3d3ae6e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>4e098c2c472f86101653eae8736d43c6</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2024-07-18 18:03:52</sys_created_on>
+        <sys_id>46098c2c472f86101653eae8736d43c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2024-07-18 18:03:52</sys_updated_on>
+        <value/>
+        <variable display_value="Not read only">e439f32cc3ba220076173b0ac3d3ae90</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>4e098c2c472f86101653eae8736d43c6</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2024-07-18 18:03:52</sys_created_on>
+        <sys_id>4a098c2c472f86101653eae8736d43c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2024-07-18 18:03:52</sys_updated_on>
+        <value/>
+        <variable display_value="Read only">d829b32cc3ba220076173b0ac3d3aea1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>4e098c2c472f86101653eae8736d43c6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2024-07-18 18:03:52</sys_created_on>
+        <sys_id>82098c2c472f86101653eae8736d43c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2024-07-18 18:03:52</sys_updated_on>
+        <value>de45c412c312310015519f2974d3ae1b</value>
+        <variable display_value="Catalog item">ae58fbe8c3ba220076173b0ac3d3aeac</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>4e098c2c472f86101653eae8736d43c6</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2024-07-18 18:03:52</sys_created_on>
+        <sys_id>86098c2c472f86101653eae8736d43c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2024-07-18 18:03:52</sys_updated_on>
+        <value>058acc12c312310015519f2974d3aea4,e9b94c12c312310015519f2974d3ae78,2cf99ac65bfb2010e26009f8e281c744,200b0052c312310015519f2974d3ae74,c0f68812c312310015519f2974d3ae67,9a8af875531e10100f16ddeeff7b12a2</value>
+        <variable display_value="Visible">a7987fe8c3ba220076173b0ac3d3ae1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>4e098c2c472f86101653eae8736d43c6</document_key>
+        <order>700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2024-07-18 18:03:52</sys_created_on>
+        <sys_id>ce098c2c472f86101653eae8736d43c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2024-07-18 18:03:52</sys_updated_on>
+        <value/>
+        <variable display_value="Not mandatory">ab59772cc3ba220076173b0ac3d3ae9c</variable>
+    </sys_variable_value>
+</record_update>
